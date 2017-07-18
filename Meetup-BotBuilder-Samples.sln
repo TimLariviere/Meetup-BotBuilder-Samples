@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoDialogs", "DemoDialogs\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoPrompts", "DemoPrompts\DemoPrompts.csproj", "{0629FAF1-1282-477A-8DFC-57761194D42D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoCards", "DemoCards\DemoCards.csproj", "{62A9976F-09B5-44BF-996F-245C94347CDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0629FAF1-1282-477A-8DFC-57761194D42D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0629FAF1-1282-477A-8DFC-57761194D42D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0629FAF1-1282-477A-8DFC-57761194D42D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A9976F-09B5-44BF-996F-245C94347CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A9976F-09B5-44BF-996F-245C94347CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A9976F-09B5-44BF-996F-245C94347CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A9976F-09B5-44BF-996F-245C94347CDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
