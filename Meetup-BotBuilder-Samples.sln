@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoPrompts", "DemoPrompts\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoCards", "DemoCards\DemoCards.csproj", "{62A9976F-09B5-44BF-996F-245C94347CDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoStates", "DemoStates\DemoStates.csproj", "{7ED0A6CF-CC37-49B2-ADCD-7697D0B9813F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{62A9976F-09B5-44BF-996F-245C94347CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62A9976F-09B5-44BF-996F-245C94347CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62A9976F-09B5-44BF-996F-245C94347CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ED0A6CF-CC37-49B2-ADCD-7697D0B9813F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED0A6CF-CC37-49B2-ADCD-7697D0B9813F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED0A6CF-CC37-49B2-ADCD-7697D0B9813F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED0A6CF-CC37-49B2-ADCD-7697D0B9813F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
