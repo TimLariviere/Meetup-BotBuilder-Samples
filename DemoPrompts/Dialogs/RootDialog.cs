@@ -18,14 +18,14 @@ namespace DemoPrompts.Dialogs
         private async Task MessageReceivedAsync(IDialogContext context, IAwaitable<object> result)
         {
             var activity = await result as Activity;
-            context.Call(new AskNameDialog(), ResumeAfterAskName);
+            context.Call(new AskFlightInfoDialog(), ResumeAfterAskName);
         }
 
         private async Task ResumeAfterAskName(IDialogContext context, IAwaitable<User> result)
         {
             var user = await result;
 
-            await context.PostAsync($"Bonjour {user.FirstName} {user.LastName}");
+            await context.PostAsync($"{user.FirstName} {user.LastName} - Vol n°{user.FlightNumber}");
 
             context.Wait(MessageReceivedAsync);
         }

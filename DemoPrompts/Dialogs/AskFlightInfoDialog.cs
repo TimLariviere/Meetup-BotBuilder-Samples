@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 namespace DemoPrompts.Dialogs
 {
     [Serializable]
-    public class AskNameDialog : IDialog<User>
+    public class AskFlightInfoDialog : IDialog<User>
     {
         private User _user = null;
 
@@ -30,6 +30,14 @@ namespace DemoPrompts.Dialogs
         private async Task ResumeAfterLastNamePrompt(IDialogContext context, IAwaitable<string> result)
         {
             _user.LastName = await result;
+
+            PromptDialog.Number(context, ResumeAfterFlightNumberPrompt, "Quel est votre numéro de vol ?");
+
+        }
+
+        private async Task ResumeAfterFlightNumberPrompt(IDialogContext context, IAwaitable<long> result)
+        {
+            _user.FlightNumber = await result;
             context.Done(_user);
         }
     }
